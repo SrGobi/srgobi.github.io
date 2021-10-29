@@ -259,7 +259,6 @@ header{
   margin-bottom: var(--mb-2);
 }
 .about-img{
-  border-radius: .5rem;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -480,7 +479,7 @@ footer{
     text-align: initial;
   }
   .about-img img{
-    width: 300px;
+    width: 500px;
   }
   .work-container{
     grid-template-columns: repeat(3, 1fr);
