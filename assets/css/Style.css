@@ -180,7 +180,7 @@ header{
 }
 
 /* Activar Menu */
-.active::after{
+.nav-menu.active::after{
   position: absolute;
   content: "";
   width: 100%;
@@ -657,8 +657,8 @@ footer{
 #app-cover
 {
     position: absolute;
-    top: 1000%;
-    right: 65%;
+    top: 870px;
+    right: 1350px;
     left: 0;
     width: 215px;
     height: 100px;
@@ -715,21 +715,15 @@ footer{
 
 #player-track.active
 {
-    top: -80px;
-}
-
-#album-name
-{
-    color: #54576f;
-    font-size: 17px;
-    font-weight: bold;
+  padding: 14px 12px 30px 100px;
+  top: -80px;
 }
 
 #track-name
 {
-    color: #acaebd;
-    font-size: 13px;
-    margin: 2px 0 13px 0;
+  color: #54576f;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 #track-time
@@ -822,7 +816,6 @@ footer{
     position: relative;
     height: 90%;
     background-color: #fff;
-    box-shadow: 0 30px 80px #656565;
     border-radius: 15px;
     z-index: 2;
 }
@@ -833,7 +826,7 @@ footer{
     top: -40px;
     width: 75px;
     height: 75px;
-    margin-left: 20px;
+    margin-left: 10px;
     transform: rotateZ(0);
     transition: 0.3s ease all;
     box-shadow: 0 0 0 5px #fff;
@@ -948,7 +941,6 @@ footer{
 {
     width: 33.333%;
     float: left;
-    padding: 36px 0 0 0;
 }
 
 .button-music
@@ -997,4 +989,9 @@ footer{
   border-radius: 4px;
   box-shadow: 0 10px 20px -5px rgba(174, 95, 135, 0.86);
   z-index: 125;
+}
+input[type="range"] {
+  height: 5px;
+  width: 150px;
+  margin: 0 0 15px 0;
 }
