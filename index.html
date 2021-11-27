@@ -25,6 +25,7 @@
         
         <!--Stilos-->
         <link rel="stylesheet" href="https://srgobi.com/assets/css/Style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <!--CSS ICONOS-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     </head>
@@ -58,6 +59,64 @@
                     <i class='bx bx-menu'></i>
                 </div>
             </nav>
+            <!-- AUDIO -->
+            <div id="app-cover">
+                <div id="player">
+                    <div id="player-track">
+                        <div id="track-name"></div>
+                        <div id="track-time">
+                            <div id="current-time"></div>
+                            <div id="track-length"></div>
+                        </div>
+                        <div id="s-area">
+                            <div id="ins-time"></div>
+                            <div id="s-hover"></div>
+                            <div id="seek-bar"></div>
+                        </div>
+                    </div>
+                    <div id="player-content">
+                        <div id="album-art">
+                            <img src="https://srgobi.com/assets/images/FLAIX-FM.jfif" class="active" id="_1">
+                            <img src="https://srgobi.com/assets/images/LOS-40-FM.jpg" id="_2">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+                            <img src="https://srgobi.com/assets/images/KISS-FM.png" id="_4">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+                            <div id="buffer-box">Buffering ...</div>
+                        </div>
+                        <div id="player-controls">
+                            <div class="control">
+                                <div class="button-music" id="play-previous">
+                                    <i class="fas fa-backward"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button-music" id="play-pause-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button-music" id="play-next">
+                                    <i class="fas fa-forward"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div id="volume">
+                                                <i class="fas fa-volume-up"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <input type="range" id="volume-range" step="1" value="80" min="0" max="100" oninput="audio.volume = this.value/100">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
         <main>
             <!-- Home -->
@@ -267,11 +326,13 @@
         <!-- Javascript - Revelacion de barra -->
         <script src="https://unpkg.com/scrollreveal"></script>
         <!-- Javascript - cloud -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Javascript - principal -->
         <script src="assets/js/principal.js"></script>
         <!-- Javascript - texto -->
         <script src="https://srgobi.com/assets/js/text.js"></script>
+        <!-- Javascript - Music -->
+        <script src="https://srgobi.com/assets/js/music-track.js"></script>
         <!-- Javascript - Iconos -->
         <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
         <!-- Javascript - Lottie -->
