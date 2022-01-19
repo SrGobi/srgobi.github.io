@@ -526,7 +526,7 @@ footer{
 {
   position: absolute;
   top: calc(100vh - 7rem);
-  width: 215px;
+  width: 220px;
   height: 100px;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -574,7 +574,8 @@ footer{
   right: 7px;
   left: 7px;
   padding: 6px 11px 5px 92px;
-  background-color: #fff7f7;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
   z-index: 1;
@@ -588,7 +589,7 @@ footer{
 
 #track-name
 {
-  color: #54576f;
+  color: #ffffff;
   font-size: 17px;
   font-weight: bold;
 }
@@ -682,7 +683,8 @@ footer{
 {
   position: relative;
   height: 90%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
   border-radius: 15px;
   z-index: 2;
 }
@@ -749,91 +751,92 @@ footer{
 
 #buffer-box
 {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    height: 13px;
-    color: #1f1f1f;
-    font-size: 13px;
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1;
-    padding: 6px;
-    margin: -12px auto 0 auto;
-    background-color: rgba(255, 255, 255, 0.19);
-    opacity: 0;
-    z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 13px;
+  color: #1f1f1f;
+  font-size: 13px;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  padding: 6px;
+  margin: -12px auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.19);
+  opacity: 0;
+  z-index: 2;
 }
 
 #album-art img, #buffer-box
 {
-    transition: 0.1s linear all;
+  transition: 0.1s linear all;
 }
 
 #album-art.buffering img
 {
-    opacity: 0.25;
+  opacity: 0.25;
 }
 
 #album-art.buffering img.active
 {
-    opacity: 0.8;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+  opacity: 0.8;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 #album-art.buffering #buffer-box
 {
-    opacity: 1;
+  opacity: 1;
 }
 
 #player-controls
 {
-    width: 130px;
-    height: 100%;
-    margin: 0 5px 0 282px;
-    float: right;
-    overflow: hidden;
+  width: 130px;
+  height: 100%;
+  margin: 0 5px 0 282px;
+  float: right;
+  overflow: hidden;
 }
 
 .control
 {
-    width: 33.333%;
-    float: left;
+  width: 33.333%;
+  float: left;
 }
 
 .button-music
 {
-    padding: 12px;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .button-music i
 {
-    display: block;
-    color: #d6dee7;
-    font-size: 26px;
-    text-align: center;
-    line-height: 1;
+  display: block;
+  color: #d6dee7;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1;
 }
 
 .button-music, .button-music i
 {
-    transition: 0.2s ease all;
+  transition: 0.2s ease all;
 }
 
 .button-music:hover
 {
-    background-color: #d6d6de;
+  background-color: #d6d6de;
 }
 
 .button-music:hover i
 {
-    color: #fff;
+  color: #fff;
 }
 
 #ytd-url {
