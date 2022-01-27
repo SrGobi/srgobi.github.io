@@ -309,20 +309,12 @@ header{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills-dc{
-  width: 98%;
-}
+/* Habilidades */
 .skills-js{
   width: 80%;
 }
 .skills-ts{
   width: 95%;
-}
-.skills-html{
-  width: 100%;
-}
-.skills-css{
-  width: 89%;
 }
 .skills-python{
   width: 45%;
@@ -330,11 +322,41 @@ header{
 .skills-php{
   width: 20%;
 }
-.skills-scss{
-  width: 90%;
+.skills-html{
+  width: 100%;
+}
+.skills-css{
+  width: 85%;
+}
+.skills-sass{
+  width: 60%;
 }
 .skills-bootstrap{
   width: 35%;
+}
+.skills-angular{
+  width: 17%;
+}
+.skills-node{
+  width: 75%;
+}
+.skills-mongodb{
+  width: 90%;
+}
+.skills-github-page{
+  width: 100%;
+}
+.skills-heroku{
+  width: 100%;
+}
+.skills-adobeillustrator{
+  width: 10%;
+}
+.skills-adobephotoshop{
+  width: 100%;
+}
+.skills-canva{
+  width: 55%;
 }
 .skills-img{
   border-radius: .5rem;
@@ -905,8 +927,7 @@ input[type="range"] {
     padding: 10px;
   }
   .profile {
-    max-width: 50px;
-    margin-bottom: 0;
+    margin-right: 0px;
   }
   .section {
     padding-bottom: 6rem;

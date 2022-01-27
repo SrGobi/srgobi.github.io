@@ -12,7 +12,8 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 // Activar y ocultar menu
-const navLink = document.querySelectorAll('.nav-link');   
+const navLink = document.querySelectorAll('.nav-link');
+document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
 
 function linkAction(){
 // Activar link
