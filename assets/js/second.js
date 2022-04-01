@@ -59,37 +59,37 @@ function atvImg(){
 		thisImg.style.transform = 'perspective('+ w*3 +'px)';
 
 		if(supportsTouch){
-			win.preventScroll = false;
-
-	        (function(_thisImg,_layers,_totalLayers,_shine) {
+				win.preventScroll = false;
+			
+				(function(_thisImg,_layers,_totalLayers,_shine) {
 				thisImg.addEventListener('touchmove', function(e){
 					if (win.preventScroll){
 						e.preventDefault();
 					}
-					processMovement(e,true,_thisImg,_layers,_totalLayers,_shine);		
+					processMovement(e,true,_thisImg,_layers,_totalLayers,_shine);
 				});
 	            thisImg.addEventListener('touchstart', function(e){
 	            	win.preventScroll = true;
-					processEnter(e,_thisImg);		
+					processEnter(e,_thisImg);
 				});
 				thisImg.addEventListener('touchend', function(e){
 					win.preventScroll = false;
-					processExit(e,_thisImg,_layers,_totalLayers,_shine);		
+					processExit(e,_thisImg,_layers,_totalLayers,_shine);
 				});
 	        })(thisImg,layers,totalLayerElems,shineHTML);
 	    } else {
 	    	(function(_thisImg,_layers,_totalLayers,_shine) {
 				thisImg.addEventListener('mousemove', function(e){
-					processMovement(e,false,_thisImg,_layers,_totalLayers,_shine);		
+					processMovement(e,false,_thisImg,_layers,_totalLayers,_shine);
 				});
-	            thisImg.addEventListener('mouseenter', function(e){
-					processEnter(e,_thisImg);		
+				thisImg.addEventListener('mouseenter', function(e){
+					processEnter(e,_thisImg);
 				});
 				thisImg.addEventListener('mouseleave', function(e){
-					processExit(e,_thisImg,_layers,_totalLayers,_shine);		
+					processExit(e,_thisImg,_layers,_totalLayers,_shine);
 				});
-	        })(thisImg,layers,totalLayerElems,shineHTML);
-	    }
+			})(thisImg,layers,totalLayerElems,shineHTML);
+		}
 	}
 
 	function processMovement(e, touchEnabled, elem, layers, totalLayers, shine){
@@ -136,9 +136,7 @@ function atvImg(){
 	}
 
 	function processExit(e, elem, layers, totalLayers, shine){
-
 		var container = elem.firstChild;
-
 		container.className = container.className.replace(' over','');
 		container.style.transform = '';
 		shine.style.cssText = '';
