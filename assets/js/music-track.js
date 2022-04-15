@@ -188,7 +188,7 @@ $(function () {
 	function initPlayer() {
 		audio = new Audio();
 		selectTrack(0);
-		audio.autoplay = false;
+		audio.autoplay = true;
 		audio.loop = true;
 		playPauseButton.on("click", playPause);
 		volumeDown.on('click', handleVolumeDown);
