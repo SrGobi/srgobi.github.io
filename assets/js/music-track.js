@@ -184,10 +184,12 @@ $(function () {
 			else ++currIndex;
 		}
 	}
+
 	function handleVolumeDown() {
 		volumeRange.value = Number(volumeRange.value) - 20
 		music.volume = volumeRange.value / 100
 	}
+	
 	function handleVolumeUp() {
 		volumeRange.value = Number(volumeRange.value) + 20
 		music.volume = volumeRange.value / 100
