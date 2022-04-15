@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
+	<script async src="https://arc.io/widget.min.js#oWF5WL8i"></script>
+	<meta charset="UTF-8" />
+	<title>SrGobi | Developer</title>
+	<base href="/">
+	<meta name="author" content="! BLD Gobi#0001">
+	<meta name="copyright" content="2022">
+	<meta name="og:type" content="website">
+	<meta name="og:url" content="https://srgobi.com">
+	<meta property="og:title" content="SrGobi | Developer">
+	<meta property="og:description"
+		content="Hey! I am SrGobi Developer Full-Stack | Discord Bots | Whastapp Bots | Fortnite Bots | Twitter and this is my portfolio. Feel free to read about my work experience and see my projects!">
+	<meta property="og:image"
+		content="https://raw.githubusercontent.com/SrGobi/srgobi.github.io/main/assets/images/Twitter-Embed.png">
+	<meta name="of:lacale" content="es-ES">
+	<meta name="theme-color" content="#5865F2">
+	<meta name="application-name" content="SrGobi | Developer">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="SrGobi">
+	<meta name='twitter:site' content='@SrgobiY'>
+	<meta name="twitter:creator" content="@SrgobiY">
+	<meta property="twitter:image"
+		content="https://raw.githubusercontent.com/SrGobi/srgobi.github.io/main/assets/images/Twitter-Embed.png"
+		data-react-helmet="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords"
+		content="discord bots, discord bot maker, discord bot commands, discord bot builder, discord bot js, ESP CUSTOMS, discord bot list">
+	<link rel="icon" type="image/icon" href="https://srgobi.com/assets/images/icon/Profile-SRGOBI.png">
+
+	<!--Stilos-->
+	<link rel="stylesheet" href="https://srgobi.com/assets/css/Style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<!--CSS ICONOS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 	<style type="text/css">
 		.background {
-			background: url("https://i.gifer.com/origin/37/376a66dacbd417010b5eda0d46ada276_w200.gif");
+			background: url("https://i.gifer.com/origin/37/376a66dacbd417010b5eda0d46ada276_w200.gif") !important;
 		}
 		.logo {
 			width: 600px;
@@ -15,19 +49,88 @@
 			display: none;
 		}
 	</style>
-	<!-- ☣⛧H3X⛧☣ -->
-	<title>Hack</title>
 </head>
-<body class="background">
-	<!-- <body > -->
-	
-	<center>
-	<img class="logo" src="https://i.imgur.com/0KAGP2N.png">
 
-	</center>
-	<font  size='8' face='time new roman' color='white' ><p align=center><b>HACK BY : ☣⛧H3X⛧☣</b></p></font>
-	<audio class="audio" controls autoplay>
-		<source src="https://www.mboxdrive.com/alca1.mp3" type="audio/mp3">
-	</audio>
+<body class="background">
+	<!-- Encabezamiento -->
+	<header>
+		<center>
+		<img class="logo" src="https://i.imgur.com/0KAGP2N.png">
+	
+		</center>
+		<font  size='8' face='time new roman' color='white' ><p align=center><b>HACK BY : ☣⛧H3X⛧☣</b></p></font>
+		<!-- AUDIO -->
+		<div id="app-cover">
+			<div id="player">
+				<div id="player-track">
+					<div id="track-name"></div>
+					<div id="track-time">
+						<div id="current-time"></div>
+						<div id="track-length"></div>
+					</div>
+					<div id="s-area">
+						<div id="ins-time"></div>
+						<div id="s-hover"></div>
+						<div id="seek-bar"></div>
+					</div>
+				</div>
+				<div id="player-content">
+					<div id="album-art">
+						<img src="https://srgobi.com/assets/images/FLAIX-FM.jfif" class="active" id="_1">
+						<div id="buffer-box">Buffering ...</div>
+					</div>
+					<div id="player-controls">
+						<div class="control">
+							<div class="button-music" id="play-previous">
+								<i class="fas fa-backward"></i>
+							</div>
+						</div>
+						<div class="control">
+							<div class="button-music" id="play-pause-button">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<div class="control">
+							<div class="button-music" id="play-next">
+								<i class="fas fa-forward"></i>
+							</div>
+						</div>
+						<div class="control">
+							<table>
+								<tr>
+									<td>
+										<div id="volume">
+											<i class="fas fa-volume-up"></i>
+										</div>
+									</td>
+									<td>
+										<input type="range" id="volume-range" step="1" value="80" min="0" max="100"
+											oninput="audio.volume = this.value/100">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Javascript - Revelacion de barra -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<!-- Javascript - cloud -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Javascript - principal -->
+	<script src="https://srgobi.com/assets/js/principal.js"></script>
+	<!-- Javascript - texto -->
+	<script src="https://srgobi.com/assets/js/text.js"></script>
+	<!-- Javascript - Music -->
+	<script src="https://srgobi.com/assets/js/music-track.js"></script>
+	<!-- Javascript - Iconos -->
+	<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+	<!-- Javascript - Lottie -->
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
+
 </html>
