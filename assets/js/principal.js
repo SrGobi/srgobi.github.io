@@ -29,26 +29,26 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 // Animacion revelacion barra
 const sr = ScrollReveal({
 	origin: 'top',
-	distance: '300px',
-	duration: 1000,
+	distance: '600px',
+	duration: 250,
 	reset: true
 });
 
 // Animacion Home
 sr.reveal('.home-title', {});
-sr.reveal('.button', { delay: 100 });
-sr.reveal('.img-bloque', { delay: 200 });
+sr.reveal('.button', { delay: 50 });
+sr.reveal('.img-bloque', { delay: 100 });
 
 // Animacion About
 sr.reveal('.about-img', {});
-sr.reveal('.about-subtitle', { delay: 200 });
-sr.reveal('.about__text', { delay: 200 });
+sr.reveal('.about-subtitle', { delay: 100 });
+sr.reveal('.about__text', { delay: 100 });
 
 // Animacion Skills
 sr.reveal('.skills-subtitle', {});
 sr.reveal('.skills-text', {});
-sr.reveal('.skills-data', { interval: 100 });
-sr.reveal('.skills-img', { delay: 300 });
+sr.reveal('.skills-data', { interval: 50 });
+sr.reveal('.skills-img', { delay: 100 });
 
 // Animacion Proyectos
-sr.reveal('.proyect-img', { interval: 100 });
+sr.reveal('.proyect-img', { interval: 50 });
