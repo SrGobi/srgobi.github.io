@@ -30,7 +30,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const sr = ScrollReveal({
 	origin: 'top',
 	distance: '600px',
-	duration: 250,
+	duration: 1000,
 	reset: true
 });
 
