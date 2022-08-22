@@ -1,16 +1,16 @@
 jQuery(document).ready(function($){
-	//set animation timing
+	//Establecer el tiempo de animación
 	var animationDelay = 2500,
-		//loading bar effect
+		//Efecto barra de carga
 		barAnimationDelay = 3800,
-		barWaiting = barAnimationDelay - 2000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
-		//letters effect
+		barWaiting = barAnimationDelay - 2000, //3000 es la duración de la transición en la barra de carga - establecida en el archivo scss/css
+		//Efecto de letras
 		lettersDelay = 50,
-		//type effect
+		//Efecto tipo
 		typeLettersDelay = 150,
 		selectionDuration = 500,
 		typeAnimationDelay = selectionDuration + 800,
-		//clip effect 
+		//Efecto de clip 
 		revealDuration = 600,
 		revealAnimationDelay = 1500;
 	
@@ -18,9 +18,9 @@ jQuery(document).ready(function($){
 	
 
 	function initHeadline() {
-		//insert <i> element for each letter of a changing word
+		//Inserte el elemento <i> para cada letra de una palabra cambiante
 		singleLetters($('.cd-headline.letters').find('b'));
-		//initialise headline animation
+		//Inicializar la animación del título
 		animateHeadline($('.cd-headline'));
 	}
 
@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
 			var headline = $(this);
 			
 			 if (!headline.hasClass('type') ) {
-				//assign to .cd-words-wrapper the width of its longest word
+				//Asigna a .cd-words-wrapper el ancho de su palabra más larga
 				var words = headline.find('.cd-words-wrapper b'),
 					width = 0;
 				words.each(function(){
@@ -54,7 +54,7 @@ jQuery(document).ready(function($){
 				headline.find('.cd-words-wrapper').css('width', width);
 			};
 
-			//trigger animation
+			//Animación de activación
 			setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
 		});
 	}
