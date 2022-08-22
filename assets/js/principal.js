@@ -25,30 +25,3 @@ function linkAction() {
 	navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-// Animacion revelacion barra
-const sr = ScrollReveal({
-	origin: 'top',
-	distance: '600px',
-	duration: 1000,
-	reset: true
-});
-
-// Animacion Home
-sr.reveal('.home-title', {});
-sr.reveal('.button', {});
-sr.reveal('.img-bloque', {});
-
-// Animacion About
-sr.reveal('.about-img', {});
-sr.reveal('.about-subtitle', {});
-sr.reveal('.about__text', {});
-
-// Animacion Skills
-sr.reveal('.skills-subtitle', {});
-sr.reveal('.skills-text', {});
-sr.reveal('.skills-data', {});
-sr.reveal('.skills-img', {});
-
-// Animacion Proyectos
-sr.reveal('.proyect-img', {});
