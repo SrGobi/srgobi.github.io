@@ -518,7 +518,7 @@ footer {
 	transform: translateY(-50%);
 	height: 90%;
 	width: 1px;
-	background-color: var(--first-color);
+	background-color: var(--first-color) !important;
 }
 
 .cd-headline.type .cd-words-wrapper.waiting::after {
@@ -528,7 +528,7 @@ footer {
 }
 
 .cd-headline.type .cd-words-wrapper.selected {
-	background-color: var(--first-color);
+	background-color: var(--first-color) !important;
 }
 
 .cd-headline.type .cd-words-wrapper.selected::after {
@@ -536,7 +536,7 @@ footer {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .cd-headline.type b {
