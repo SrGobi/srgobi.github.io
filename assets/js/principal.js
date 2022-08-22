@@ -25,6 +25,3 @@ function linkAction() {
 	navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-// Animacion Skills
-sr.reveal('.skills-data', { interval: 50 });

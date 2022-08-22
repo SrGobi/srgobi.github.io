@@ -37,8 +37,8 @@ $(function () {
 		],
 		albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
 		trackUrl = [
-			"http://nodo07-cloud01.streaming-pro.com:8000/flaixfm.mp3",
-			"https://20723.live.streamtheworld.com/LOS40_URBANAAC.aac",
+			"http://nodo06-cloud01.streaming-pro.com:8000/flaixfm.mp3",
+			"https://21223.live.streamtheworld.com/LOS40_SC",
 			"https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
 			"https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
 			"https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
