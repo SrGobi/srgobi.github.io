@@ -29,7 +29,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 // Animacion revelacion barra
 const sr = ScrollReveal({
   origin: 'top',
-  distance: '600px',
+  distance: '80px',
   duration: 1000,
   reset: true
 });
