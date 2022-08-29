@@ -1034,20 +1034,6 @@ input[type="range"] {
     padding: 0px;
   }
 
-  .nav-menu {
-    z-index: var(--z-tooltip);
-    position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    padding: 2rem;
-    background-color: var(--background-tertiary);
-    border-radius: 20px;
-    transition: .5s;
-  }
-
   .bloque {
     display: grid;
     grid-template-columns: 100%;
@@ -1118,10 +1104,6 @@ input[type="range"] {
     margin-bottom: 0;
   }
 
-  .nav-toggle {
-    display: none;
-  }
-
   .nav-link {
     color: var(--nvar-text);
   }
@@ -1177,6 +1159,26 @@ input[type="range"] {
 
   .cd-title {
     line-height: 250px;
+  }
+}
+
+@media screen and (min-width: 992) {
+  .nav-menu {
+    z-index: var(--z-tooltip);
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    padding: 2rem;
+    background-color: var(--background-tertiary);
+    border-radius: 20px;
+    transition: .5s;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 }
 
