@@ -230,6 +230,8 @@ header {
   flex-direction: column;
   justify-content: center;
   font-size: var(--big-font-size);
+  max-width: 524px;
+  z-index: -1;
 }
 
 .home-title-color {
