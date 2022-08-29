@@ -149,6 +149,7 @@ header {
 	height: 500px;
 	max-width: 100%;
 }
+
 /* Barra de navegacion */
 .nav {
 	padding: 20px;
@@ -961,6 +962,9 @@ input[type="range"] {
 	.home-title {
 		font-size: var(--normal-font-size);
 	}
+	.home-social a{
+		display: none;
+	}
 
 	#app-cover {
 		width: 120px;
@@ -995,6 +999,22 @@ input[type="range"] {
 		height: auto;
 		width: auto;
 		margin: auto;
+	}
+
+	.skills-data {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.skills-names {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.skills-icon {
+		margin-right: 0;
 	}
 }
 
