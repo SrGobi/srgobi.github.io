@@ -666,6 +666,7 @@ header {
 
 .nav-item {
   margin-bottom: var(--mb-4);
+  transition: 0.3s ease all;
 }
 
 .nav-link {
@@ -749,6 +750,7 @@ header {
 .home-social-icon {
   width: max-content;
   color: var(--second-color);
+  transition: 0.3s ease all;
 }
 
 .home-social-icon:hover {
