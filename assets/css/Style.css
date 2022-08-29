@@ -1028,7 +1028,7 @@ input[type="range"] {
 }
 
 /* Media Queries */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 769px) {
 
   .nav {
     padding: 0px;
@@ -1079,7 +1079,7 @@ input[type="range"] {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
