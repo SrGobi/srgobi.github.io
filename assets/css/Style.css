@@ -962,7 +962,8 @@ input[type="range"] {
 	.home-title {
 		font-size: var(--normal-font-size);
 	}
-	.home-social a{
+
+	.home-social a {
 		display: none;
 	}
 
@@ -971,16 +972,24 @@ input[type="range"] {
 		height: 60px;
 	}
 
-	#player-track {
+	#player-track.active {
 		padding: 0px;
 		top: -40px;
+	}
+
+	#player-track {
+		padding: 0px;
+	}
+
+	#album-art.active {
+		top: -20px;
 	}
 
 	#album-art {
 		width: 37px;
 		height: 37px;
 		box-shadow: 0 0 0 2px #fff;
-		top: -20px;
+		top: 10px;
 	}
 
 	#player-controls {
