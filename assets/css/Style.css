@@ -984,8 +984,16 @@ input[type="range"] {
 		top: -20px;
 	}
 
-	#player-controls{
+	#player-controls {
 		width: 65px;
+	}
+
+	.button-music {
+		padding: 6px;
+	}
+
+	.button-music i {
+		font-size: inherit;
 	}
 
 	input[type="range"] {
