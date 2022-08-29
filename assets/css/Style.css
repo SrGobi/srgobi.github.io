@@ -454,7 +454,7 @@ footer {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-	width: 10px;
+	width: .6vh;
 	background-color: transparent;
 }
 
