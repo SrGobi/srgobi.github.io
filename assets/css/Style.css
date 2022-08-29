@@ -344,10 +344,11 @@ header {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background-color: var(--first-color);
-	height: .25rem;
-	border-radius: .5rem;
+	background: var(--first-color);
+	height: 0.25rem;
+	border-radius: 0.5rem;
 	z-index: var(--z-back);
+	box-shadow: var(--first-color) 0px 0px 8px 0px;
 }
 
 /* Habilidades */
@@ -951,11 +952,54 @@ input[type="range"] {
 	}
 }
 
+/* Small Queries */
+@media screen and (max-width: 450px) {
+	.home {
+		height: 25vh
+	}
+
+	.home-title {
+		font-size: var(--normal-font-size);
+	}
+
+	.lottie-gif {
+		width: 125px;
+		height: 125px;
+	}
+
+	#app-cover {
+		width: 120px;
+		height: 60px;
+	}
+
+	#player-track {
+		padding: 0px;
+		top: -40px;
+	}
+
+	#album-art {
+		width: 37px;
+		height: 37px;
+		box-shadow: 0 0 0 2px #fff;
+		top: -20px;
+	}
+
+	#player-controls{
+		width: 65px;
+	}
+
+	input[type="range"] {
+		height: auto;
+		width: auto;
+		margin: auto;
+	}
+}
+
 /* Media Queries */
 @media screen and (max-width: 769px) {
 	.lottie-gif {
-		width: 300px;
-		height: 300px;
+		width: 250px;
+		height: 250px;
 	}
 
 	.nav {
