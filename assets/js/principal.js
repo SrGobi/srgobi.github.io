@@ -25,3 +25,30 @@ function linkAction() {
 	navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+// Animacion revelacion barra
+const sr = ScrollReveal({
+	origin: 'top',
+	distance: '600px',
+	duration: 1000,
+	reset: true
+});
+
+// Animacion Home
+sr.reveal('.home-title', {});
+sr.reveal('.button', { delay: 50 });
+sr.reveal('.img-bloque', { delay: 100 });
+
+// Animacion About
+sr.reveal('.about-img', {});
+sr.reveal('.about-subtitle', { delay: 100 });
+sr.reveal('.about__text', { delay: 100 });
+
+// Animacion Skills
+sr.reveal('.skills-subtitle', {});
+sr.reveal('.skills-text', {});
+sr.reveal('.skills-data', { interval: 50 });
+sr.reveal('.skills-img', { delay: 100 });
+
+// Animacion Proyectos
+sr.reveal('.proyect-img', { interval: 50 });
