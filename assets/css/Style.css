@@ -145,8 +145,8 @@ header {
 }
 
 .lottie-gif {
-  width: 500px;
-  height: 500px;
+  width: max-content;
+  height: 100%;
   max-width: 100%;
 }
 
