@@ -147,8 +147,8 @@ header {
 .lottie-gif {
 	width: 500px;
 	height: 500px;
+	max-width: 100%;
 }
-
 /* Barra de navegacion */
 .nav {
 	padding: 20px;
@@ -955,16 +955,11 @@ input[type="range"] {
 /* Small Queries */
 @media screen and (max-width: 450px) {
 	.home {
-		height: 25vh
+		height: 50vh
 	}
 
 	.home-title {
 		font-size: var(--normal-font-size);
-	}
-
-	.lottie-gif {
-		width: 125px;
-		height: 125px;
 	}
 
 	#app-cover {
@@ -1005,10 +1000,6 @@ input[type="range"] {
 
 /* Media Queries */
 @media screen and (max-width: 769px) {
-	.lottie-gif {
-		width: 250px;
-		height: 250px;
-	}
 
 	.nav {
 		padding: 0px;
