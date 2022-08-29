@@ -60,76 +60,507 @@ body {
   font-family: Ginto;
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/01.gif?raw=true), auto;
-  animation: cursor 1s linear infinite;
+  cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/01.gif?raw=true), auto;
+  animation: cursorv2 1s linear infinite;
 }
 
-@keyframes cursor{
-  0% { 
-      cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/01.gif?raw=true), auto;
+@keyframes cursor {
+  0% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/01.gif?raw=true), auto;
   }
-  5% { 
-      cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/02.gif?raw=true), auto;
+
+  5% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/02.gif?raw=true), auto;
   }
-  10% { 
+
+  10% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/03.gif?raw=true), auto;
   }
-  15% { 
+
+  15% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/04.gif?raw=true), auto;
   }
-  20% { 
+
+  20% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/05.gif?raw=true), auto;
   }
-  25% { 
+
+  25% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/06.gif?raw=true), auto;
   }
-  30% { 
+
+  30% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/07.gif?raw=true), auto;
   }
-  35% { 
+
+  35% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/08.gif?raw=true), auto;
   }
-  45% { 
+
+  45% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/09.gif?raw=true), auto;
   }
-  50% { 
+
+  50% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/10.gif?raw=true), auto;
   }
-  55% { 
+
+  55% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/11.gif?raw=true), auto;
   }
-  60% { 
+
+  60% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/12.gif?raw=true), auto;
   }
-  65% { 
+
+  65% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/13.gif?raw=true), auto;
   }
-  70% { 
+
+  70% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/14.gif?raw=true), auto;
   }
-  75% { 
+
+  75% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/15.gif?raw=true), auto;
   }
-  80% { 
+
+  80% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/16.gif?raw=true), auto;
   }
-  83% { 
+
+  83% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/17.gif?raw=true), auto;
   }
-  88% { 
+
+  88% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/18.gif?raw=true), auto;
   }
-  92% { 
+
+  92% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/19.gif?raw=true), auto;
   }
-  95% { 
+
+  95% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/20.gif?raw=true), auto;
   }
-  98% { 
+
+  98% {
     cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/21.gif?raw=true), auto;
   }
-  100% { 
-      cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/22.gif?raw=true), auto;
+
+  100% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepo/22.gif?raw=true), auto;
+  }
+}
+
+@keyframes cursorv2 {
+  0% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/01.gif?raw=true), auto;
+  }
+
+  1% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/02.gif?raw=true), auto;
+  }
+
+  2% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/03.gif?raw=true), auto;
+  }
+
+  3% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/04.gif?raw=true), auto;
+  }
+
+  4% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/05.gif?raw=true), auto;
+  }
+
+  5% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/06.gif?raw=true), auto;
+  }
+
+  6% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/07.gif?raw=true), auto;
+  }
+
+  7% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/08.gif?raw=true), auto;
+  }
+
+  8% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/09.gif?raw=true), auto;
+  }
+
+  9% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/10.gif?raw=true), auto;
+  }
+
+  10% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/11.gif?raw=true), auto;
+  }
+
+  11% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/12.gif?raw=true), auto;
+  }
+
+  12% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/13.gif?raw=true), auto;
+  }
+
+  13% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/14.gif?raw=true), auto;
+  }
+
+  14% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/15.gif?raw=true), auto;
+  }
+
+  15% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/16.gif?raw=true), auto;
+  }
+
+  16% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/17.gif?raw=true), auto;
+  }
+
+  17% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/18.gif?raw=true), auto;
+  }
+
+  18% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/19.gif?raw=true), auto;
+  }
+
+  19% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/20.gif?raw=true), auto;
+  }
+
+  20% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/21.gif?raw=true), auto;
+  }
+
+  21% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/22.gif?raw=true), auto;
+  }
+
+  22% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/23.gif?raw=true), auto;
+  }
+
+  23% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/24.gif?raw=true), auto;
+  }
+
+  24% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/25.gif?raw=true), auto;
+  }
+
+  25% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/26.gif?raw=true), auto;
+  }
+
+  26% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/27.gif?raw=true), auto;
+  }
+
+  27% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/28.gif?raw=true), auto;
+  }
+
+  28% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/29.gif?raw=true), auto;
+  }
+
+  28% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/30.gif?raw=true), auto;
+  }
+
+  29% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/31.gif?raw=true), auto;
+  }
+
+  30% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/32.gif?raw=true), auto;
+  }
+
+  31% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/33.gif?raw=true), auto;
+  }
+
+  32% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/34.gif?raw=true), auto;
+  }
+
+  33% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/35.gif?raw=true), auto;
+  }
+
+  34% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/36.gif?raw=true), auto;
+  }
+
+  35% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/37.gif?raw=true), auto;
+  }
+
+  36% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/38.gif?raw=true), auto;
+  }
+
+  37% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/39.gif?raw=true), auto;
+  }
+
+  38% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/40.gif?raw=true), auto;
+  }
+
+  39% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/41.gif?raw=true), auto;
+  }
+
+  40% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/42.gif?raw=true), auto;
+  }
+
+  41% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/43.gif?raw=true), auto;
+  }
+
+  42% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/44.gif?raw=true), auto;
+  }
+
+  43% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/45.gif?raw=true), auto;
+  }
+
+  44% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/46.gif?raw=true), auto;
+  }
+
+  45% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/47.gif?raw=true), auto;
+  }
+
+  46% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/48.gif?raw=true), auto;
+  }
+
+  47% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/49.gif?raw=true), auto;
+  }
+
+  48% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/50.gif?raw=true), auto;
+  }
+
+  49% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/51.gif?raw=true), auto;
+  }
+
+  50% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/52.gif?raw=true), auto;
+  }
+
+  51% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/53.gif?raw=true), auto;
+  }
+
+  52% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/54.gif?raw=true), auto;
+  }
+
+  53% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/55.gif?raw=true), auto;
+  }
+
+  54% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/56.gif?raw=true), auto;
+  }
+
+  55% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/57.gif?raw=true), auto;
+  }
+
+  56% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/58.gif?raw=true), auto;
+  }
+
+  57% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/59.gif?raw=true), auto;
+  }
+
+  58% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/60.gif?raw=true), auto;
+  }
+
+  59% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/61.gif?raw=true), auto;
+  }
+
+  60% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/62.gif?raw=true), auto;
+  }
+
+  61% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/63.gif?raw=true), auto;
+  }
+
+  62% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/64.gif?raw=true), auto;
+  }
+
+  63% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/65.gif?raw=true), auto;
+  }
+
+  64% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/66.gif?raw=true), auto;
+  }
+
+  65% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/67.gif?raw=true), auto;
+  }
+
+  66% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/68.gif?raw=true), auto;
+  }
+
+  67% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/69.gif?raw=true), auto;
+  }
+
+  68% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/70.gif?raw=true), auto;
+  }
+
+  69% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/71.gif?raw=true), auto;
+  }
+
+  70% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/72.gif?raw=true), auto;
+  }
+
+  71% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/73.gif?raw=true), auto;
+  }
+
+  72% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/74.gif?raw=true), auto;
+  }
+
+  73% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/75.gif?raw=true), auto;
+  }
+
+  74% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/76.gif?raw=true), auto;
+  }
+
+  75% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/77.gif?raw=true), auto;
+  }
+
+  76% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/78.gif?raw=true), auto;
+  }
+
+  77% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/79.gif?raw=true), auto;
+  }
+
+  78% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/80.gif?raw=true), auto;
+  }
+
+  79% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/81.gif?raw=true), auto;
+  }
+
+  80% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/82.gif?raw=true), auto;
+  }
+
+  81% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/83.gif?raw=true), auto;
+  }
+
+  82% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/84.gif?raw=true), auto;
+  }
+
+  83% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/85.gif?raw=true), auto;
+  }
+
+  84% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/86.gif?raw=true), auto;
+  }
+
+  85% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/87.gif?raw=true), auto;
+  }
+
+  86% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/88.gif?raw=true), auto;
+  }
+
+  87% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/89.gif?raw=true), auto;
+  }
+
+  88% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/90.gif?raw=true), auto;
+  }
+
+  89% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/91.gif?raw=true), auto;
+  }
+
+  90% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/92.gif?raw=true), auto;
+  }
+
+  91% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/93.gif?raw=true), auto;
+  }
+
+  92% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/94.gif?raw=true), auto;
+  }
+
+  93% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/95.gif?raw=true), auto;
+  }
+
+  94% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/96.gif?raw=true), auto;
+  }
+
+  95% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/97.gif?raw=true), auto;
+  }
+
+  96% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/98.gif?raw=true), auto;
+  }
+
+  97% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/99.gif?raw=true), auto;
+  }
+
+  98% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/100.gif?raw=true), auto;
+  }
+
+  99% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/101.gif?raw=true), auto;
+  }
+
+  100% {
+    cursor: url(https://github.com/SrGobi/srgobi.github.io/blob/main/assets/images/pepov2/102.gif?raw=true), auto;
   }
 }
 
