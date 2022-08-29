@@ -992,6 +992,12 @@ input[type="range"] {
     top: 10px;
   }
 
+  #album-art:before {
+    top: 65%;
+    width: 10px;
+    height: 10px;
+  }
+
   #player-controls {
     width: 65px;
   }
@@ -1029,30 +1035,6 @@ input[type="range"] {
 
 /* Media Queries */
 @media screen and (max-width: 769px) {
-
-  .nav {
-    padding: 0px;
-  }
-
-  .nav-menu {
-    z-index: var(--z-tooltip);
-    position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    padding: 2rem;
-    background-color: var(--background-tertiary);
-    border-radius: 20px;
-    transition: .5s;
-  }
-
-  .bloque {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-column-gap: 2rem;
-  }
 
   .home-social {
     display: flex;
@@ -1102,28 +1084,6 @@ input[type="range"] {
   .section-title::after {
     width: 80px;
     top: 3rem;
-  }
-
-  .nav {
-    height: calc(var(--header-height) + 1rem);
-  }
-
-  .nav-list {
-    display: flex;
-    padding-top: 0;
-  }
-
-  .nav-item {
-    margin-left: var(--mb-6);
-    margin-bottom: 0;
-  }
-
-  .nav-toggle {
-    display: none;
-  }
-
-  .nav-link {
-    color: var(--nvar-text);
   }
 
   .home {
@@ -1180,6 +1140,50 @@ input[type="range"] {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .nav-list {
+    display: flex;
+    padding-top: 0;
+  }
+
+  .nav-item {
+    margin-left: var(--mb-6);
+    margin-bottom: 0;
+  }
+
+  .nav-link {
+    color: var(--nvar-text);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav {
+    padding: 0px;
+  }
+
+  .nav-menu {
+    z-index: var(--z-tooltip);
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    padding: 2rem;
+    background-color: var(--background-tertiary);
+    border-radius: 20px;
+    transition: .5s;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .bd-grid {
     margin-left: auto;
@@ -1190,6 +1194,17 @@ input[type="range"] {
   #app-cover {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .bloque {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
   }
 }
 
