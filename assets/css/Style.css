@@ -1667,6 +1667,7 @@ input[type='range'] {
 @media screen and (max-width: 992px) {
 	.nav {
 		padding: 0px;
+		padding-right: 20px;
 	}
 
 	.nav-menu {
