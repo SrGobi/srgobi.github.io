@@ -559,16 +559,20 @@ header {
 
 /* Barra de navegacion */
 .nav {
-	padding: 20px;
-	background-color: var(--background-tertiary);
-	margin-top: 20px;
-	height: var(--header-height);
-	display: flex;
-	border: 10px;
+	margin: 20px;
 	border-radius: 20px;
+	background-color: rgb(0 0 0 / 30%);
+}
+
+.sub-nav{
+	padding: 20px;
+	backdrop-filter: saturate(180%) blur(10px);
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-weight: var(--font-semi);
+	border: 1px solid #ffffff40;
+	border-radius: 20px;
 }
 
 .nav-link {
