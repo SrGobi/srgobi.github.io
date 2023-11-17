@@ -1555,10 +1555,6 @@ input[type='range'] {
 		transition: 0.3s ease all;
 	}
 
-	.nav {
-		height: calc(var(--header-height) + 1rem);
-	}
-
 	.nav-list {
 		display: flex;
 		text-align: center;
@@ -1573,18 +1569,13 @@ input[type='range'] {
 }
 
 @media screen and (max-width: 992px) {
-	.nav {
-		padding: 0px;
-		padding-right: 20px;
-	}
 
 	.nav-menu {
 		z-index: var(--z-tooltip);
 		position: fixed;
 		top: var(--header-height);
-		right: -100%;
+		right: -120%;
 		width: 100%;
-		height: 100%;
 		top: 0%;
 		padding: 2rem;
 		background-color: var(--background-tertiary);
