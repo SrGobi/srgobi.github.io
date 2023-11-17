@@ -31,7 +31,7 @@ $(function () {
 		trackNames = ['Flaix FM', 'Los 40 FM', 'Kaaze - Electro Boy', 'Kiss FM', 'Martin Garrix - Proxy'],
 		albumArtworks = ['_1', '_2', '_3', '_4', '_5'],
 		trackUrl = [
-			'http://nodo05-cloud01.streaming-pro.com:8000/flaixfm.mp3',
+			'https://nodo05-cloud01.streaming-pro.com:8001/flaixfm.mp3',
 			'https://21223.live.streamtheworld.com/LOS40_SC',
 			'https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3',
 			'https://kissfm.kissfmradio.cires21.com/kissfm.mp3',
