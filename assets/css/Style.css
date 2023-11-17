@@ -571,11 +571,6 @@ header {
 	font-weight: var(--font-semi);
 }
 
-.nav-item {
-	margin-bottom: var(--mb-4);
-	transition: 0.3s ease all;
-}
-
 .nav-link {
 	position: relative;
 	color: #fff;
@@ -609,6 +604,7 @@ header {
 	color: var(--interactive-normal);
 	font-size: 1.5rem;
 	cursor: pointer;
+	transition: 0.3s ease all;
 }
 
 /* Activar Menu */
@@ -1459,6 +1455,7 @@ input[type='range'] {
 
 	.icons {
 		padding: 10px;
+		transition: 0.3s ease all;
 	}
 
 	.profile {
@@ -1551,6 +1548,7 @@ input[type='range'] {
 @media screen and (min-width: 992px) {
 	.nav-toggle {
 		display: none;
+		transition: 0.3s ease all;
 	}
 
 	.nav {
@@ -1559,12 +1557,10 @@ input[type='range'] {
 
 	.nav-list {
 		display: flex;
-		padding-top: 0;
-	}
-
-	.nav-item {
-		margin-left: var(--mb-6);
-		margin-bottom: 0;
+		text-align: center;
+		place-items: center;
+		gap: 20px;
+		transition: 0.3s ease all;
 	}
 
 	.nav-link {
