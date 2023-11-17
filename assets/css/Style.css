@@ -529,7 +529,7 @@ img {
 
 /* Diseño */
 .bd-grid {
-	max-width: 80%;
+	max-width: 1024px;
 	display: grid;
 	grid-template-columns: 100%;
 	grid-column-gap: 2rem;
