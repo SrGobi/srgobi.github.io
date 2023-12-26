@@ -575,6 +575,12 @@ header {
 	border-radius: 20px;
 }
 
+.nav-list{
+	backdrop-filter: saturate(180%) blur(10px);
+	padding: 20px;
+	text-align: center;
+}
+
 .nav-link {
 	position: relative;
 	color: #fff;
