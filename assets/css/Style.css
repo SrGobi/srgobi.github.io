@@ -624,7 +624,8 @@ header {
 
 /* Ver Menu */
 .show {
-	right: 0 !important;
+	top: 100% !important;
+	opacity: 100% !important;
 }
 
 /* Main */
@@ -1573,14 +1574,14 @@ input[type='range'] {
 	.nav-menu {
 		z-index: var(--z-tooltip);
 		position: fixed;
-		top: var(--header-height);
-		right: -120%;
 		width: 100%;
+		right: 0;
 		top: 0%;
-		padding: 2rem;
-		background-color: var(--background-tertiary);
+		border: 1px solid #ffffff40;
 		border-radius: 20px;
-		transition: 0.5s;
+		opacity: 0%;
+		transition: 0.1s;
+		background-color: rgb(0 0 0 / 30%);
 	}
 }
 
