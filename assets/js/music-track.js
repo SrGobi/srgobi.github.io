@@ -12,7 +12,6 @@ $(function () {
 		playPauseButton = $('#play-pause-button'),
 		i = playPauseButton.find('i'),
 		tProgress = $('#current-time'),
-		tTime = $('#track-length'),
 		seekT,
 		seekLoc,
 		seekBarPos,
@@ -28,14 +27,12 @@ $(function () {
 		nTime = 0,
 		buffInterval = null,
 		tFlag = false,
-		trackNames = ['Flaix FM', 'Los 40 FM', 'Kaaze - Electro Boy', 'Kiss FM', 'Martin Garrix - Proxy'],
-		albumArtworks = ['_1', '_2', '_3', '_4', '_5'],
+		trackNames = ['Flaix FM', 'Los 40 FM', 'Kiss FM'],
+		albumArtworks = ['_1', '_2', '_3'],
 		trackUrl = [
 			'https://nodo05-cloud01.streaming-pro.com:8001/flaixfm.mp3',
 			'https://21223.live.streamtheworld.com/LOS40_SC',
-			'https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3',
 			'https://kissfm.kissfmradio.cires21.com/kissfm.mp3',
-			'https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3'
 		],
 		playPreviousTrackButton = $('#play-previous'),
 		playNextTrackButton = $('#play-next'),
@@ -109,8 +106,6 @@ $(function () {
 		if (durSeconds < 10) durSeconds = '0' + durSeconds;
 		if (isNaN(curMinutes) || isNaN(curSeconds)) tProgress.text('00:00');
 		else tProgress.text(curMinutes + ':' + curSeconds);
-		if (isNaN(durMinutes) || isNaN(durSeconds)) tTime.text('00:00');
-		else tTime.text(durMinutes + ':' + durSeconds);
 		if (isNaN(curMinutes) || isNaN(curSeconds) || isNaN(durMinutes) || isNaN(durSeconds)) trackTime.removeClass('active');
 		else trackTime.addClass('active');
 		seekBar.width(playProgress + '%');
@@ -146,7 +141,6 @@ $(function () {
 			seekBar.width(0);
 			trackTime.removeClass('active');
 			tProgress.text('00:00');
-			tTime.text('00:00');
 			currTrackName = trackNames[currIndex];
 			currArtwork = albumArtworks[currIndex];
 			audio.src = trackUrl[currIndex];
