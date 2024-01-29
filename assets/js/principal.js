@@ -41,7 +41,6 @@ sr.reveal('.img-bloque', { delay: 100 });
 
 // Animacion About
 sr.reveal('.about-img', {});
-sr.reveal('.about-subtitle', { delay: 100 });
 sr.reveal('.about__text', { delay: 100 });
 
 // Animacion Skills
