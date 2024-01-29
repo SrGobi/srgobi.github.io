@@ -15,14 +15,15 @@
 	--header-height: 50px;
 	--font-semi: 600;
 	/* Colores */
-	--background-primary: #36393f;
-	--background-secondary: #2f3136;
+	--background-primary: rgb(10 10 10 / 1);
+	--background-secondary: rgb(0 0 0 / 0.2);
 	--background-tertiary: #202225;
 	--primary: #949494;
 	--secondary: #6c757d;
-	--first-color: #3b3af0;
+	--first-color: #3a5df0;
 	--second-color: #fff;
 	--nvar-text: #b9bbbe;
+	--nvar-background: rgb(0 0 0 / 30%);
 	--interactive-normal: #b9bbbe;
 	/* Tipografia */
 	--big-font-size: 2rem;
@@ -57,7 +58,7 @@ html {
 
 body {
 	background-color: var(--background-primary);
-	font-family: Ginto;
+	font-family: Ginto, 'Times New Roman', 'Segoe UI', sans-serif;
 	font-size: var(--normal-font-size);
 	color: var(--second-color);
 }
@@ -85,8 +86,14 @@ a {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+video {
+	width: 100%;
+	height: 100%;
 	display: block;
 }
 
@@ -139,6 +146,9 @@ header {
 
 .profile {
 	max-width: 50px;
+	max-height: 50px;
+	width: 50px;
+	height: 50px;
 	margin-bottom: 0;
 	margin-right: var(--mb-4);
 }
@@ -151,10 +161,10 @@ header {
 .nav {
 	margin: 20px;
 	border-radius: 20px;
-	background-color: rgb(0 0 0 / 30%);
+	background-color: var(--nvar-background);
 }
 
-.sub-nav{
+.sub-nav {
 	padding: 20px;
 	backdrop-filter: saturate(180%) blur(10px);
 	display: flex;
@@ -165,7 +175,7 @@ header {
 	border-radius: 20px;
 }
 
-.nav-list{
+.nav-list {
 	backdrop-filter: saturate(180%) blur(10px);
 	padding: 20px;
 	text-align: center;
@@ -295,10 +305,6 @@ header {
 	text-align: center;
 }
 
-.about-subtitle {
-	margin-bottom: var(--mb-2);
-}
-
 .about-img {
 	position: relative;
 	display: inline-block;
@@ -335,7 +341,7 @@ header {
 	padding: 0.5rem 1rem;
 	margin-bottom: var(--mb-4);
 	border-radius: 0.5rem;
-	background-color: var(--background-tertiary);
+	background-color: var(--nvar-background);
 }
 
 .skills-icon {
@@ -454,10 +460,16 @@ header {
 
 /* Pie de pagina */
 footer {
-	background-color: var(--background-secondary);
+	margin: 4rem;
+	padding: 1rem;
 	text-align: center;
 	font-weight: var(--font-semi);
-	padding: 1rem 0;
+	border-radius: 0.5rem;
+	margin-bottom: 2.5rem;
+	width: 1120px;
+	background-color: var(--background-secondary);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Scrollbar */
@@ -645,7 +657,7 @@ footer {
 #app-cover {
 	position: absolute;
 	top: calc(100vh - 7rem);
-	width: 220px;
+	width: 280px;
 	height: 100px;
 	margin-left: var(--mb-2);
 	margin-right: var(--mb-2);
@@ -697,8 +709,8 @@ footer {
 }
 
 #player-track.active {
-	padding: 14px 12px 30px 100px;
-	top: -80px;
+	padding: 14px 12px 10px 100px;
+	top: -59px;
 }
 
 #track-name {
@@ -717,35 +729,15 @@ footer {
 	float: left;
 }
 
-#track-length {
-	float: right;
-}
-
-#current-time,
-#track-length {
-	color: transparent;
+#current-time {
+	color: white;
 	font-size: 11px;
-	background-color: #ffe8ee;
-	border-radius: 10px;
 	transition: 0.3s ease all;
 }
 
-#track-time.active #current-time,
-#track-time.active #track-length {
+#track-time.active #current-time {
 	color: #f86d92;
 	background-color: transparent;
-}
-
-#s-area,
-#seek-bar {
-	position: relative;
-	height: 4px;
-	border-radius: 4px;
-}
-
-#s-area {
-	background-color: #ffe8ee;
-	cursor: pointer;
 }
 
 #ins-time {
@@ -887,11 +879,10 @@ footer {
 }
 
 #player-controls {
-	width: 130px;
-	height: 100%;
-	margin: 0 5px 0 282px;
 	float: right;
 	overflow: hidden;
+	padding: 10px;
+	margin-left: 100px;
 }
 
 .control {
@@ -901,6 +892,7 @@ footer {
 
 .button-music {
 	padding: 12px;
+	margin: 0rem 0.15rem;
 	background-color: rgba(255, 255, 255, 0.15);
 	backdrop-filter: blur(5px);
 	border-radius: 20px;
@@ -947,7 +939,6 @@ footer {
 input[type='range'] {
 	height: 5px;
 	width: 150px;
-	margin: 0 0 15px 0;
 }
 
 @keyframes rotateAlbumArt {
@@ -1020,7 +1011,6 @@ input[type='range'] {
 	input[type='range'] {
 		height: auto;
 		width: auto;
-		margin: auto;
 	}
 
 	.skills-data {
@@ -1166,7 +1156,6 @@ input[type='range'] {
 }
 
 @media screen and (max-width: 992px) {
-
 	.nav-menu {
 		z-index: var(--z-tooltip);
 		position: fixed;
