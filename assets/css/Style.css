@@ -466,7 +466,7 @@ footer {
 	font-weight: var(--font-semi);
 	border-radius: 0.5rem;
 	margin-bottom: 2.5rem;
-	width: 1120px;
+	max-width: 1120px;
 	background-color: var(--background-secondary);
 	margin-left: auto;
 	margin-right: auto;
@@ -700,17 +700,19 @@ footer {
 	top: 0;
 	right: 7px;
 	left: 7px;
-	padding: 6px 11px 5px 92px;
+	padding: 0.5rem;
 	background-color: rgba(255, 255, 255, 0.15);
 	backdrop-filter: blur(5px);
 	border-radius: 15px 15px 0 0;
 	transition: 0.3s ease top;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 #player-track.active {
-	padding: 14px 12px 10px 100px;
-	top: -59px;
+	top: -55px;
 }
 
 #track-name {
@@ -966,17 +968,11 @@ input[type='range'] {
 	}
 
 	#app-cover {
-		width: 120px;
-		height: 60px;
+		width: 180px;
 	}
 
 	#player-track.active {
-		padding: 0px;
-		top: -40px;
-	}
-
-	#player-track {
-		padding: 0px;
+		top: -49px;
 	}
 
 	#album-art.active {
@@ -987,7 +983,7 @@ input[type='range'] {
 		width: 37px;
 		height: 37px;
 		box-shadow: 0 0 0 2px #fff;
-		top: 10px;
+		top: -20px;
 	}
 
 	#album-art:before {
@@ -996,8 +992,8 @@ input[type='range'] {
 		height: 10px;
 	}
 
-	#player-controls {
-		width: 65px;
+	#player-controls{
+		padding-top: 20px;
 	}
 
 	.button-music {
